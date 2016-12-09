@@ -1,8 +1,8 @@
 Package.describe({
   name: 'thebarty:autoform-formattable-radios',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
-  summary: 'Contains formattable bootstrap-3 autoform-input-variants for the default input-types "boolean-radios" (="formattable-boolean-radios") and "select-radio"(="formattable-select-radio") and "select-radio-inline"(="formattable-select-radio-inline").',
+  summary: 'Formattable bootstrap-3 radio input-types for meteors autoform',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/thebarty/autoform-formattable-radios',
   // By default, Meteor will default to using README.md for documentation.
