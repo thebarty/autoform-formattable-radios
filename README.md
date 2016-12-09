@@ -1,5 +1,9 @@
 # Intro
-Contains formattable bootstrap-3 autoform-input-variants for the default input-types "boolean-radios" (="formattable-boolean-radios"), "select-radio"(="formattable-select-radio") and "radio-inline" (="formattable-radio-inline"). See http://stackoverflow.com/questions/1431726/css-selector-for-a-checked-radio-buttons-label for main strategy.
+Bootstraps default input-types "boolean-radios", "select-radio" and "radio-inline" do not allow you to highlight the selected ``input[type=radio]`` via css. This package allows you to do it.
+
+It is a very simply folk of autoform's original input-fields, but adds more css-classes.
+
+It contains formattable bootstrap-3 autoform-input-variants for the default input-types "boolean-radios" (="formattable-boolean-radios"), "select-radio"(="formattable-select-radio") and "radio-inline" (="formattable-radio-inline"). See http://stackoverflow.com/questions/1431726/css-selector-for-a-checked-radio-buttons-label for main strategy.
 
 # Usage
 Simply install this package via ``meteor add thebarty:autoform-formattable-radios`` and activate the types within your SimpleSchema like:
