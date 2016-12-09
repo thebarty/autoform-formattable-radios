@@ -1,0 +1,15 @@
+<template name="afFormattableBooleanRadioGroup">
+  <div {{dsk}}>
+    <div class="aff-boolean-radio-wrapper">
+      <label class="aff-boolean-radio"><input type="radio" value="false" name="{{this.name}}" {{falseAtts}} /><span class="aff-radio-label"> {{#with this.atts.falseLabel}}{{this}}{{else}}False{{/with}}</span></label>
+    </div>
+    <div class="aff-boolean-radio-wrapper">
+      <label class="aff-boolean-radio"><input type="radio" value="true" name="{{this.name}}" {{trueAtts}} /><span class="aff-radio-label"> {{#with this.atts.trueLabel}}{{this}}{{else}}True{{/with}}</span></label>
+    </div>
+    {{#if this.atts.nullLabel}}
+    <div class="aff-boolean-radio-wrapper">
+      <label class="aff-boolean-radio"><input type="radio" value="null" name="{{this.name}}" {{nullAtts}} /><span class="aff-radio-label"> {{this.atts.nullLabel}}</span></label>
+    </div>
+    {{/if}}
+  </div>
+</template>

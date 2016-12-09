@@ -1,0 +1,7 @@
+<template name="afFormattableRadioGroupInline">
+  <div class="af-radio-group" {{dsk}}>
+  {{#each this.items}}
+    <label class="aff-radio-inline"><input type="radio" value="{{this.value}}" {{atts}} /><span class="aff-radio-label"> {{this.label}}</span></label>
+  {{/each}}
+  </div>
+</template>
