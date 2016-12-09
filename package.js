@@ -1,6 +1,6 @@
 Package.describe({
   name: 'thebarty:autoform-formattable-radios',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'Formattable bootstrap-3 radio input-types for meteors autoform',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use('ecmascript');
+  api.use('ecmascript@0.1.5');
   api.use('templating@1.0.0');
   api.use('blaze@2.0.0');
   api.use('aldeed:autoform@5.0.0');
